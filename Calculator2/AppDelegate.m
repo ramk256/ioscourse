@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  Calculator2
+//  Calculator
 //
-//  Created by Ram Kandasamy on 9/16/12.
+//  Created by Ram Kandasamy on 8/25/12.
 //  Copyright (c) 2012 N/A. All rights reserved.
 //
 
