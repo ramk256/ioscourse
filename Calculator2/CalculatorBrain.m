@@ -52,10 +52,10 @@
     }
 }
 
-- (double)performOperation:(NSString *)operation
+- (double)performOperation:(NSString *)operation usingVariableValues:(NSDictionary *)variableValues
 {
     [self.programStack addObject:operation];
-    return [[self class] runProgram:self.program];
+    return [[self class] runProgram:self.program usingVariableValues:variableValues];
 }
 
 + (double)popOperandOffProgramStack:(NSMutableArray *)stack usingVariableValues:(NSDictionary *)variableValues

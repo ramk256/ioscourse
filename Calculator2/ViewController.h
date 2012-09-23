@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *stackDisplay;
 @property (weak, nonatomic) IBOutlet UILabel *variableDisplay;
 
-@property (nonatomic, weak) NSDictionary *testVariableValues;
+@property (nonatomic, strong) NSDictionary *testVariableValues;
 
 - (NSString *)getVariableValues;
 @end

@@ -9,11 +9,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Calculator2/ViewController.m"
-         timestampString = "370049045.942094"
+         timestampString = "370053655.244535"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "62"
-         endingLineNumber = "62"
+         startingLineNumber = "67"
+         endingLineNumber = "67"
          landmarkName = "-getVariableValues"
          landmarkType = "5">
       </FileBreakpoint>
@@ -23,11 +23,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Calculator2/CalculatorBrain.m"
-         timestampString = "370047000.356483"
+         timestampString = "370053655.244535"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "132"
-         endingLineNumber = "132"
+         startingLineNumber = "136"
+         endingLineNumber = "136"
          landmarkName = "+variablesUsedInProgram:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -37,11 +37,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Calculator2/ViewController.m"
-         timestampString = "370049045.942094"
+         timestampString = "370053655.244535"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "68"
-         endingLineNumber = "68"
+         startingLineNumber = "73"
+         endingLineNumber = "73"
          landmarkName = "-getVariableValues"
          landmarkType = "5">
       </FileBreakpoint>

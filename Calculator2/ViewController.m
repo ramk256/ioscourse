@@ -55,6 +55,11 @@
 
 }
 
+- (IBAction)setVariableValues:(UIButton *)sender {
+    
+    if (!_testVariableValues) _testVariableValues = [[NSDictionary alloc] initWithObjectsAndKeys:[NSNumber numberWithDouble:5], @"x", [NSNumber numberWithDouble:6], @"y", [NSNumber numberWithDouble:7], @"z" , nil];
+    
+}
 
 - (NSString *)getVariableValues
 {
@@ -125,7 +130,7 @@
     
     self.stackDisplay.text = [self.stackDisplay.text stringByAppendingString:operationStack];
     
-    double result = [self.brain performOperation:operation];
+    double result = [self.brain performOperation:operation usingVariableValues:self.testVariableValues];
     
     self.display.text = [NSString stringWithFormat:@"%g", result];
 }
